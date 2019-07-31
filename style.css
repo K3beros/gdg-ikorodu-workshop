@@ -1,0 +1,41 @@
+*,
+*::after,
+*::before {
+	margin: 0;
+	padding: 0;
+	box-sizing: inherit;
+}
+
+body {
+	box-sizing: border-box;
+	background: rgba(242, 242, 242, .6);
+	font-family: 'Raleway', sans-serif;
+	width: 100%;
+}
+
+.navbar {
+	/*text-align: center;
+	display: block;*/
+	width: 100%;
+	background-color: #31b0d5;
+}
+
+.navbar__navigation {
+	/*position: fixed;
+	top: 0;
+	text-align: center;*/
+}
+
+.navbar__list {
+	text-align: center;
+}
+
+.navbar__list--item {
+	display: inline-block;
+	padding: 14px;
+	text-align: center;
+}
+
+.navbar__link {
+	text-decoration: none;
+}
